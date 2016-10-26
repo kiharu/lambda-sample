@@ -1,0 +1,24 @@
+{
+  "name": "lambda-sample",
+  "version": "1.0.0",
+  "description": "unzip S3 objects with AWS Lambda",
+  "main": "unzip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiharu/lambda-sample.git"
+  },
+  "author": "Kiharu Sasaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiharu/lambda-sample/issues"
+  },
+  "homepage": "https://github.com/kiharu/lambda-sample#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "mime-types": "^2.1.12",
+    "node-zip": "^1.1.1"
+  }
+}
